@@ -23,7 +23,7 @@ export default function Routes() {
         <Route path={hooksApproachPath}>
         <SportContext.Provider value={sports.hockey}>
             <ThemeContext.Provider value={themes.blue}>
-             <HooksApproach.PlayerCard />
+              <HooksApproach.PlayerCard />
             </ThemeContext.Provider>
           </SportContext.Provider>
         </Route>
