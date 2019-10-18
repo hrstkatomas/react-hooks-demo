@@ -7,9 +7,9 @@ export interface RowProps {
 
 export default function Row(props: RowProps) {
   return (
-    <>
+    <div className="row">
       <h1>{props.label}</h1>
       <p>{props.children}</p>
-    </>
+    </div>
   );
 }

@@ -16,18 +16,25 @@ section {
   width: 300px;
   margin: auto;
   background: #c7c7c7;
-  padding: 20px;
+  padding: 50px;
   border-radius: 5px;
+  margin-top: 50px;
 }
 
 section.green {
   color: white;
   background: #0b7700;
+  background: url(./backgrounds/football.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 section.blue {
   color: white;
   background: #006290;
+  background: url(./backgrounds/hockey.png);
+  background-size: cover;
+  background-position: bottom;
 }
 
 h1 {
@@ -48,12 +55,11 @@ input {
   outline: none;
 }
 
-section.green > p > input {
-  color: white;
-  border-bottom: 1px solid #085f00;
+.row {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
 }
 
-section.blue > p > input {
+input {
   color: white;
-  border-bottom: 1px solid #00406d;
 }
