@@ -16,7 +16,7 @@ function useThemeContext(): string {
 describe('useFormInput test', () => {
   let contextValue: string;
   beforeEach(() => {
-    testHook(() => { contextValue = useThemeContext() }, "darkMode");
+    testHook(() => { contextValue = useThemeContext(); }, "darkMode");
   });
 
   it("should consume theme context", () => {
